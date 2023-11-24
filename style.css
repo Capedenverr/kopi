@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans';
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.anim::before{
+    color: rgb(255, 255, 255);
+    content: "Web Developer";
+    animation: animate 5s infinite;
+}
+
+@keyframes animate {
+    0% { content: "Web Developer"}
+    50% { content: "Mobile App Developer" }
+    75% { content: "Game Developer"}
+}
